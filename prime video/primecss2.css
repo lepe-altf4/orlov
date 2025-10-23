@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+/* Caja de login */
+.login-box {
+  background-color: #ffffff;
+  border: 1px solid #d5d9d9;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 1px 2px rgba(15,17,17,0.15);
+  width: 350px;
+  padding: 20px 26px;
+  border-radius: 8px;
+}
+
+.login-box h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.login-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.login-box input[type="email"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #a6a6a6;
+  font-size: 14px;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.login-box input[type="email"]:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px #e77600;
+}
+
+/* Botón de continuar */
+.login-box button[type="submit"] {
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  padding: 9px 0;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #111;
+  width: 100%;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #e2b33d;
+}
+
+/* Texto legal */
+.login-box .legal {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.login-box .legal a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.login-box .legal a:hover {
+  text-decoration: underline;
+}
+
+/* Enlace de ayuda */
+.help {
+  margin-top: 15px;
+}
+
+.help a {
+  font-size: 13px;
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.help a:hover {
+  text-decoration: underline;
+}
+
+/* Mensaje de error */
+.error {
+  color: #ba0933;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* Sección para nuevos usuarios */
+.new-account {
+  margin-top: 36px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+.new-account .create-account {
+  background-color: #e7e9ec;
+  border: 1px solid #adb1b8;
+  padding: 9px 0;
+  border-radius: 3px;
+  font-size: 13px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.new-account .create-account:hover {
+  background-color: #d7d9dc;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 11px;
+  color: #555;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}

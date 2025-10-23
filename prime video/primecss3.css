@@ -1,0 +1,114 @@
+/* Fuente base del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 350px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Logo de Amazon */
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* Caja del formulario */
+.form-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Título */
+.form-box h2 {
+  margin-top: 0;
+}
+
+/* Campos de entrada */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+/* Botón de continuar */
+.continue-btn {
+  width: 100%;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Contenedor de ayuda */
+.help-container {
+  margin-top: 15px;
+}
+
+/* Botón que despliega ayuda */
+.help-toggle {
+  background: none;
+  border: none;
+  color: #0066c0;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Flecha (ícono) */
+#arrow {
+  transition: transform 0.3s ease;
+}
+
+/* Clase para rotar flecha */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Texto de ayuda adicional */
+.extra-help {
+  margin-top: 10px;
+  display: none;
+}
+
+/* Mostrar ayuda cuando se activa */
+.extra-help.visible {
+  display: block;
+}
+
+/* Pie de página con enlaces */
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+/* Enlaces en línea horizontal */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

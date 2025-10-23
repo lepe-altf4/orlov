@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión - Amazon</title>
+  <link rel="stylesheet" href="primecss3.css">
+  <!-- Íconos de Font Awesome para flechas -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Contenedor principal -->
+  <div class="container">
+    <!-- Logo de Amazon -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" class="logo">
+
+    <!-- Caja de inicio de sesión -->
+    <div class="form-box">
+      <h2>Iniciar sesión</h2>
+
+      <!-- Etiqueta y campo de correo -->
+      <label for="email">Correo electrónico o número de teléfono móvil</label>
+      <input type="text" id="email">
+
+      <!-- Botón Continuar -->
+      <button class="continue-btn">Continuar</button>
+
+      <!-- Ayuda desplegable -->
+      <div class="help-container">
+        <button class="help-toggle" onclick="toggleHelp()">
+          ¿Necesitás ayuda?
+          <i class="fas fa-chevron-right" id="arrow"></i>
+        </button>
+        <div class="extra-help" id="extra-help">
+          <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pie de página con los links en línea horizontal -->
+    <footer>
+      <div class="footer-links">
+        <a href="#">Términos</a>
+        <a href="#">Ayuda</a>
+        <a href="#">Envíanos tu comentario</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Script para mostrar/ocultar ayuda -->
+  <script>
+    function toggleHelp() {
+      const help = document.getElementById('extra-help');
+      const arrow = document.getElementById('arrow');
+      help.classList.toggle('visible');
+      arrow.classList.toggle('rotate');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 350px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.form-box h2 {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.continue-btn {
+  width: 100%;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* --- AYUDA --- */
+.help-section {
+  margin-top: 15px;
+  position: relative;
+}
+
+.help-toggle {
+  color: #0066c0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+
+/* Flecha normal */
+.help-toggle .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* Contenido oculto */
+.extra-help {
+  display: none;
+  margin-top: 8px;
+}
+
+/* Mostrar al pasar el mouse */
+.help-section:hover .extra-help {
+  display: block;
+}
+
+/* Rotar flecha al hacer hover */
+.help-section:hover .arrow {
+  transform: rotate(90deg); /* rota la flecha hacia abajo */
+}
+
+/* --- FOOTER LINKS HORIZONTALES --- */
+footer {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.login-box .legal {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.login-box .legal a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.login-box .legal a:hover {
+  text-decoration: underline;
+}
